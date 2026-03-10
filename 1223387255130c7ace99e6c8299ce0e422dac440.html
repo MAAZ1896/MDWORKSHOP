@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Accept simple payments for a startup</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <ul>
+<li><a href="#accept-simple-payments-for-a-startup">Accept simple payments for a startup</a>
+<ul>
+<li><a href="#create-a-stripe-account">Create a Stripe account</a></li>
+<li><a href="#create-a-payment-link">Create a payment link</a>
+<ul>
+<li><a href="#create-a-payment-link-1">Create a payment link</a></li>
+</ul>
+</li>
+<li><a href="#share-the-payment-link-with-your-customers">Share the payment link with your customers</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#source-code">Source code</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="accept-simple-payments-for-a-startup">Accept simple payments for a startup</h1>
+<p>Learn how to enable Stripe payments for your business without writing code.</p>
+<h2 id="create-a-stripe-account">Create a Stripe account</h2>
+<p>Before integrating with Stripe, you must create a Stripe account.</p>
+<ol>
+<li><a href="stripe.html">Create an account</a> by entering your email address, full name, country, and creating a password.</li>
+<li>Fill out your business profile.</li>
+<li>In the Dashboard, click <strong>Verify your email</strong>. Stripe sends a verification email to your email address.</li>
+<li>Verify your email address.</li>
+</ol>
+<h2 id="create-a-payment-link">Create a payment link</h2>
+<p><a href="stripe.html">Payment Links</a> let your customers pay you when you sell online. Create a single link that you can share with everyone.</p>
+<h3 id="create-a-payment-link-1">Create a payment link</h3>
+<ol>
+<li>In the Dashboard, open the Payment Links page and click <strong>+New</strong>.</li>
+<li>Select an existing product or click <strong>+Add a new product</strong>.</li>
+<li>If you’re adding a new product, fill out the product details and click <strong>Add product</strong>.</li>
+<li>Click <strong>Create link</strong>.</li>
+</ol>
+<h2 id="share-the-payment-link-with-your-customers">Share the payment link with your customers</h2>
+<p>Use the Dashboard to copy your payment link, and share it online. Click the copy icon next to an existing link on the Payment Links page, or go to the payment link’s details page. You can share your payment link multiple times and anywhere online, including:</p>
+<ul>
+<li>Emails</li>
+<li>Text messages</li>
+<li>Social media platforms</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<p>Nitro Enclaves has the following requirements:</p>
+<ul>
+<li>
+<h3 id="parent-instance-requirements">Parent instance requirements:</h3>
+<ul>
+<li>The parent instance must use one of the following instance types and a Linux or Windows (2016 or later) operating system.</li>
+</ul>
+</li>
+</ul>
+<p>General purpose</p>
+<table>
+<thead>
+<tr>
+<th>Instance family</th>
+<th>Instance types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M5</td>
+<td>All instance types, <strong>except</strong>: m5.large</td>
+</tr>
+<tr>
+<td>M5a</td>
+<td>All instance types, <strong>except</strong>: m5a.large</td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source code</h2>
+<pre><code>{
+    &quot;status&quot;:&quot;OK&quot;,
+    &quot;data&quot;:
+        {
+            &quot;message&quot;: &quot;Welcome, world!&quot;
+        }
+}
+</code></pre>
+<blockquote>
+<p><strong>Note</strong>: Enclaves booted in debug mode generate attestation documents with PCRs that are made up entirely of zeros.</p>
+</blockquote>
+<p><img src="file:////download.png" alt=""></p>
+
+            
+            
+        </body>
+        </html>
