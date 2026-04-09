@@ -16,7 +16,7 @@ SGX is an XXXX publishing tool that allows you identify errors, perform quality 
 XXX SGX displays author information of titles published by the Author. Click **Validate** on the left pane. A confirmation message appears. Click **Yes**.
 ## Steps to validate author
 1. Click **About the author** to open author bio.
-2. Check the author details against the information in the vendor central repository.
+2. Check author details against the information in the vendor central repository.
 3. Click **Cover Image** and select author name.
 4. Review the author’s website and verify the information with the repository.
 5. Click **Design** to check the fonts, style and images used in previously published books.
