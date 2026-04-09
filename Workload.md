@@ -59,5 +59,13 @@ The Control-M Workload Archiving Installation wizard appears.
 The installation log can be found at the following location:
 <installFolder>\<Control-M/EM/home dir>BMCINSTALL\log\BMC_ControlM_Workload_Archiving_Install_<date-time>.log
 
+    
+  4. Click **Done**.
+
+
+
+ 
+    
+
 
 
