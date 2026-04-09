@@ -22,7 +22,8 @@ The following procedure describes how to install Control-M Workload Archiving on
 Control-M Workload Archiving uses a dedicated PostgreSQL database that is preinstalled.
 Do not install it on a computer that already hosts another database server. Install a secondary instance of the Control-M/EM server in a distributed configuration, as described in Control-M/Enterprise Manager installation guide. The installation process installs a dedicated GUI Server.  
 
->**Note:** + To avoid slow performance on Control-M/EM, set the Control-M/Server IOALOGLM system parameter to 7 or less. 
+>**Note:**  
+> + To avoid slow performance on Control-M/EM, set the Control-M/Server IOALOGLM system parameter to 7 or less. 
 >+ To upgrade to version 9.0.20, upgrade the Control-M/EM server first, and then upgrade the
 Control-M/EM Distributed component, as described in Upgrading Control-M/EM on UNIX and Upgrading Control-M/EM on Windows. The system automatically upgrades the Workload Archiving server during the Control-M/EM Distributed upgrade.
 
