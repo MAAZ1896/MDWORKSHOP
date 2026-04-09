@@ -24,6 +24,6 @@ XXX SGX displays author information of titles published by the Author. Click **V
 7. Verify the copyrights from the list of last three books. If copyrights are updated flag it by clicking **Invalid** if not click **Valid**.
 8. Click **Vendor central** on the left pane.
 9. You are directed to marketing website, check whether the author has posted about the book release with updated cover image.
-10. Confidential.
+10. Omni bus books comes in the left pane with new cover image.
 11. Confidential.
 12. Return to SGX and click **Approve** on the bottom pane to auto link the author for bulk marketing mails system in CSR (Common Sense Recommendation) system. 
