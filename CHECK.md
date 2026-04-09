@@ -1,3 +1,11 @@
+- Starting a Whatsapp Call
+- Prerequisites
+- To Start a WhatsaApp Call
+
+
+
+
+
 # Starting a WhatsApp Call
 Whatsapp allows users to place voice as well as video calls for both domestic and international communication.
 # Prerequisites
@@ -6,7 +14,7 @@ Whatsapp allows users to place voice as well as video calls for both domestic an
 # To Start a WhatsaApp Call,
 1. Open WhatsApp and swipe right to go to **Calls** tab.
 2. On the top left pane click **Call**.
-   The list of saved contacts appears.
+   The list of saved contacts appear.
 3. Select the contact you want to call.
 >**Note**: Alternatively you can click Keypad and dial the registered number to place a call.
 4. On the right pane **Voice** and **Video call** options appears.
