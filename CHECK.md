@@ -8,7 +8,7 @@ Whatsapp allows users to place voice as well as video calls for both domestic an
 2. On the top left pane click **Call**.
    The list of saved contacts appears.
 3. Select the contact you want to call.
-   >**Note**: Alternatively you can click Keypad and dial the registered number to place a call.
+>**Note**: Alternatively you can click Keypad and dial the registered number to place a call.
 4. On the right pane **Voice** and **Video call** options appears.
 5. Click **Voice** to place audio call or click **Video** to place video call.
 The caller interface opens, and the call is placed successfully.
