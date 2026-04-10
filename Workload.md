@@ -61,7 +61,7 @@ The installation log can be found at the following location:
 
 ```
  4. Click **Done**.
- 5. A sucessfull message will appear in the left bottom pane, click **Complete** to finish and click **Report** to generated detailed report.
+
 
    
 
