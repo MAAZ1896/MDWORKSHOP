@@ -26,4 +26,5 @@ XXX SGX displays author information of titles published by the Author. Click **V
 9. You are directed to marketing website, check whether the author has posted about the book release with updated cover image.
 10. Omni bus books comes in the left pane with new cover image.
 11. Click **Reject with Omnibus collection**.
-12. Return to SGX and click **Approve** on the bottom pane to auto link the author for bulk marketing mails system in CSR (Common Sense Recommendation) system. 
+12. Return to SGX and click **Approve** on the bottom pane to auto link the author for bulk marketing mails system in CSR (Common Sense Recommendation) system. \
+13. Make sure to click **Save**.

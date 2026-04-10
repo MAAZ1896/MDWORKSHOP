@@ -7,7 +7,7 @@
 # Introduction
 Automated teller machine is a computer controlled money vending machine that allows customers to withdraw cash, generate mini statements, deposit cash, and instantly generate debit card pins.
 
-# Prerequisite
+# Prerequisites
 1. The customer must maintain  an active account in the bank at any  branch across India.
 2. Make sure the mobile number is update with the bank.
 3. The debit card must contain  customers name and a valid signature on the back of the card.
