@@ -61,7 +61,7 @@ The installation log can be found at the following location:
 
 ```
  4. Click **Done**.
- 5. Be sure to do this regularly.
+1. Tested ok.
    
 
 
