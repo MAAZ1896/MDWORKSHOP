@@ -61,7 +61,8 @@ The installation log can be found at the following location:
 
 ```
  4. Click **Done**.
-1. Tested ok.
+ 5. Make sure to change the game.
+
    
 
 
